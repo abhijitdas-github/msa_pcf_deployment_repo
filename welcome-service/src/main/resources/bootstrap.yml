@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: welcome-service
+server:
+  port: 8101
+management:
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false

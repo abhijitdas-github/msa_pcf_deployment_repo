@@ -1,4 +1,4 @@
-package com.pcf.example.welcomeservice;
+package com.msa.pcf.welcomeservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

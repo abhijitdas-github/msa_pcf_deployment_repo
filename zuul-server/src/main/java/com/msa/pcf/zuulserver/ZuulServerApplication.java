@@ -1,4 +1,4 @@
-package com.pcf.example.zuulserver;
+package com.msa.pcf.zuulserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
