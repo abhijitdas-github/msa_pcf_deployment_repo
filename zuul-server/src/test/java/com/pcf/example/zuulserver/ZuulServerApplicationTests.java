@@ -1,4 +1,4 @@
-package com.pcf.example.zuulserver;
+package com.msa.pcf.zuulserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
