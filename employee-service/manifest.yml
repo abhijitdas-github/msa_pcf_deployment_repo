@@ -3,9 +3,10 @@ applications:
    path: target/employee-service-0.0.1-SNAPSHOT.jar
    memory: 990M
    instances: 1
-   random-route: true
+   host: employee-service-ad
    env:
      SPRING_PROFILES_ACTIVE: dev
    services:
     - config-server
     - service-registry
+    - rabbit-mq-service
