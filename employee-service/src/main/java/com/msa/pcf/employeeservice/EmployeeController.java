@@ -32,6 +32,7 @@ public class EmployeeController {
 		Employee employee = employeeRepository.findOne(empId);
 		
 		employee.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
+		//throw new RuntimeException();
 		return employee;
 		//return new Employee("AAA","BBB",101L,new Date());
 	}
