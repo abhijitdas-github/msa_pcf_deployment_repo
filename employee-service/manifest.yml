@@ -1,7 +1,7 @@
 applications:
  - name: employee-service
    path: target/employee-service-0.0.1-SNAPSHOT.jar
-   memory: 990M
+   memory: 1024M
    instances: 1
    host: employee-service-ad
    env:

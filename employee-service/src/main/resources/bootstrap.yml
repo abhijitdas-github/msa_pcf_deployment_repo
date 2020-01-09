@@ -1,6 +1,8 @@
 spring:
   application:
     name: employee-service
+  profile:
+    active: dev
 server:
   port: 8080
 management:
