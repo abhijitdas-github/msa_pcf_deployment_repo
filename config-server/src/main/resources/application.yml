@@ -1,9 +1,12 @@
 server:
   port: 8888
 spring:
+  profiles:    active:    - config-monitor
   application:
     name: config-server
   cloud:
+    bus:
+      enabled: true
     config:
       server:
         git:

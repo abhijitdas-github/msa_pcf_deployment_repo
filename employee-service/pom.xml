@@ -45,10 +45,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<dependency>
@@ -83,6 +79,10 @@
 			<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-configuration-processor</artifactId>
 		    <optional>true</optional>
@@ -90,13 +90,12 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>	
+		</dependency>
 		<dependency>
 	        <groupId>io.pivotal.spring.cloud</groupId>
 	        <artifactId>spring-cloud-services-starter-service-registry</artifactId>
         </dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -162,6 +161,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-
 </project>

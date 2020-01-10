@@ -1,11 +1,10 @@
 applications:
- - name: employee-service
-   path: target/employee-service-0.0.1-SNAPSHOT.jar
+ - name: welcome-service
+   path: target/welcome-service-0.0.1-SNAPSHOT.jar
    memory: 1024M
    instances: 1
-   host: employee-service-ad
+   host: welcome-service-ad
    env:
      SPRING_PROFILES_ACTIVE: default #value can be dev, qa, prod, if not given default will be picked
    services:
-    - config-server
     - service-registry

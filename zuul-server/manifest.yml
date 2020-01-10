@@ -7,5 +7,4 @@ applications:
    env:
      SPRING_PROFILES_ACTIVE: dev
    services:
-    - config-server
     - service-registry
