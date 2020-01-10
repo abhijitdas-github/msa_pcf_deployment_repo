@@ -24,3 +24,16 @@ public class EmployeeConfiguration {
 	
 }
 
+/*
+Another way to bind the bean in refresh scope is:
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.stereotype.Component;
+
+@RefreshScope
+@Component
+public class Menu {
+
+  @Value("${cook.special}")
+  String special;
+  
+*/
